@@ -1,0 +1,1403 @@
+{
+    "restaurant":  {
+                       "name":  "The Carnival Restaurant",
+                       "cuisines":  [
+                                        "Indian",
+                                        "Chinese",
+                                        "Tandoor"
+                                    ],
+                       "phone":  "+91 73507 17279",
+                       "address":  "Dervan Fata, Sawarde",
+                       "instagram":  "the.carnival.restaurant",
+                       "note":  "Please allow us 20 minutes to serve you Truly Delicious!",
+                       "heroImages":  [
+                                          "/assets/images/hero-biryani.webp",
+                                          "/assets/images/hero-curry.webp",
+                                          "/assets/images/hero-noodles.webp"
+                                      ]
+                   },
+    "categories":  [
+                       {
+                           "name":  "Tandoor",
+                           "sections":  [
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Tandoor",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  220
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  440
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Tikka",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Seekh Kebab",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Pahadi Kebab",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Banjara Kebab",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/tandoor-nonveg.webp"
+                                            },
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Paneer Tikka",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Pahadi Kebab",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Banjara Kebab",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/tandoor-veg.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/tandoor-nonveg.webp"
+                       },
+                       {
+                           "name":  "Chicken",
+                           "sections":  [
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Masala",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Kolhapuri",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Handi",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  300
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  520
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Kadhai",
+                                                                  "veg":  false,
+                                                                  "price":  270,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Tawa",
+                                                                  "veg":  false,
+                                                                  "price":  270,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Special Chicken",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  350
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  600
+                                                                                   }
+                                                                               ],
+                                                                  "special":  true
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Malvani Handi",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  350
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  600
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Malvani Masala",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Vade",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Butter Chicken",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  350
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  550
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Murg Mussalam",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  380
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  680
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Tandoor Chicken Handi",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  400
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  780
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Patiala",
+                                                                  "veg":  false,
+                                                                  "price":  340,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Mumtaz",
+                                                                  "veg":  false,
+                                                                  "price":  350,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Mastani",
+                                                                  "veg":  false,
+                                                                  "price":  340,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Tikka Masala",
+                                                                  "veg":  false,
+                                                                  "price":  280,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  "/assets/images/chicken.webp"
+                       },
+                       {
+                           "name":  "Mutton",
+                           "sections":  [
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Mutton Masala",
+                                                                  "veg":  false,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Kolhapuri",
+                                                                  "veg":  false,
+                                                                  "price":  260,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Handi",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  400
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  780
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Kadhai",
+                                                                  "veg":  false,
+                                                                  "price":  300,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Tawa",
+                                                                  "veg":  false,
+                                                                  "price":  300,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Special Mutton",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  450
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  850
+                                                                                   }
+                                                                               ],
+                                                                  "special":  true
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Malvani Handi",
+                                                                  "veg":  false,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  430
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  820
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Malvani Masala",
+                                                                  "veg":  false,
+                                                                  "price":  270,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Vade",
+                                                                  "veg":  false,
+                                                                  "price":  270,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  "/assets/images/mutton.webp"
+                       },
+                       {
+                           "name":  "Seafood",
+                           "sections":  [
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Tava Surmai Fry/Masala",
+                                                                  "veg":  false,
+                                                                  "price":  null,
+                                                                  "priceNote":  "APS",
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Tava Kolambi Fry/Masala",
+                                                                  "veg":  false,
+                                                                  "price":  null,
+                                                                  "priceNote":  "APS",
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Tava Bangda Fry/Masala",
+                                                                  "veg":  false,
+                                                                  "price":  null,
+                                                                  "priceNote":  "APS",
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Tava Pomfret Fry/Masala",
+                                                                  "veg":  false,
+                                                                  "price":  null,
+                                                                  "priceNote":  "APS",
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  "/assets/images/seafood.webp"
+                       },
+                       {
+                           "name":  "Veg Main Course",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Mix Veg",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Kolhapuri",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Masala",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Matar Paneer",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Aloo Matar",
+                                                                  "veg":  true,
+                                                                  "price":  150,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Green Peas Masala",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Baingan Masala",
+                                                                  "veg":  true,
+                                                                  "price":  150,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Bhindi Masala",
+                                                                  "veg":  true,
+                                                                  "price":  150,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chana Masala",
+                                                                  "veg":  true,
+                                                                  "price":  160,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chana Paneer Masala",
+                                                                  "veg":  true,
+                                                                  "price":  190,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Bhurji",
+                                                                  "veg":  true,
+                                                                  "price":  170,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Plain Dal",
+                                                                  "veg":  true,
+                                                                  "price":  80,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Dal Fry",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Dal Tadka",
+                                                                  "veg":  true,
+                                                                  "price":  140,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/veg-main-dal.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/veg-main-matar-paneer.webp"
+                       },
+                       {
+                           "name":  "Veg Special Main Course",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Special Veg",
+                                                                  "veg":  true,
+                                                                  "price":  280,
+                                                                  "special":  true
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Makkhanwala",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Malai Kofta",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Butter Masala",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Kaju Makkhanwala",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Kaju Paneer Masala",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Maratha",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Palak Paneer",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Palak Lasooni",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mushroom Masala",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Babycorn Mushroom Masala",
+                                                                  "veg":  true,
+                                                                  "price":  230,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Kaju Mushroom Masala",
+                                                                  "veg":  true,
+                                                                  "price":  230,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Baingan Bharta",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Bhendi Fry",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Hyderabadi",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Handi",
+                                                                  "veg":  true,
+                                                                  "price":  270,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Kadai",
+                                                                  "veg":  true,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Tawa",
+                                                                  "veg":  true,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Bijli",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Tikka Masala",
+                                                                  "veg":  true,
+                                                                  "price":  230,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Kofta",
+                                                                  "veg":  true,
+                                                                  "price":  230,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Patiala",
+                                                                  "veg":  true,
+                                                                  "price":  250,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Jaipuri",
+                                                                  "veg":  true,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Kaju Masala",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Patiala",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  "/assets/images/veg-special-malai-kofta.webp"
+                       },
+                       {
+                           "name":  "Rice",
+                           "sections":  [
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Dum Biryani",
+                                                                  "veg":  false,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Hyderabadi Biryani",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Tikka Biryani",
+                                                                  "veg":  false,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Tandoor Biryani",
+                                                                  "veg":  false,
+                                                                  "price":  260,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Dum Biryani",
+                                                                  "veg":  false,
+                                                                  "price":  280,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mutton Hyderabadi Biryani",
+                                                                  "veg":  false,
+                                                                  "price":  300,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/rice-nonveg-biryani.webp"
+                                            },
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Steam Rice",
+                                                                  "veg":  true,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  60
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  100
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Jeera Rice",
+                                                                  "veg":  true,
+                                                                  "variants":  [
+                                                                                   {
+                                                                                       "label":  "Half",
+                                                                                       "price":  80
+                                                                                   },
+                                                                                   {
+                                                                                       "label":  "Full",
+                                                                                       "price":  120
+                                                                                   }
+                                                                               ],
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Dal Khichdi",
+                                                                  "veg":  true,
+                                                                  "price":  150,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Dal Tadka Khichdi",
+                                                                  "veg":  true,
+                                                                  "price":  170,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Palak Khichdi",
+                                                                  "veg":  true,
+                                                                  "price":  160,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Pulao",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Biryani",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/rice-veg-pulao.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/rice-nonveg-biryani.webp"
+                       },
+                       {
+                           "name":  "Sides",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Masala Papad",
+                                                                  "veg":  true,
+                                                                  "price":  50,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Roasted Papad",
+                                                                  "veg":  true,
+                                                                  "price":  20,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Fry Papad",
+                                                                  "veg":  true,
+                                                                  "price":  20,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Green Salad",
+                                                                  "veg":  true,
+                                                                  "price":  90,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Mix Raita",
+                                                                  "veg":  true,
+                                                                  "price":  50,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Pineapple Raita",
+                                                                  "veg":  true,
+                                                                  "price":  90,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Curd (Dahi)",
+                                                                  "veg":  true,
+                                                                  "price":  40,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Buttermilk",
+                                                                  "veg":  true,
+                                                                  "price":  30,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Lassi",
+                                                                  "veg":  true,
+                                                                  "price":  50,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Fresh Lime Water",
+                                                                  "veg":  true,
+                                                                  "price":  30,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Fresh Lime Soda",
+                                                                  "veg":  true,
+                                                                  "price":  40,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  "/assets/images/breads-paratha-raita.webp"
+                       },
+                       {
+                           "name":  "Breads",
+                           "sections":  [
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Paratha",
+                                                                  "veg":  false,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            },
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Roti",
+                                                                  "veg":  true,
+                                                                  "price":  20,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Butter Roti",
+                                                                  "veg":  true,
+                                                                  "price":  25,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Naan",
+                                                                  "veg":  true,
+                                                                  "price":  30,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Butter Naan",
+                                                                  "veg":  true,
+                                                                  "price":  40,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Butter Garlic Naan",
+                                                                  "veg":  true,
+                                                                  "price":  55,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Kulcha",
+                                                                  "veg":  true,
+                                                                  "price":  50,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Butter Kulcha",
+                                                                  "veg":  true,
+                                                                  "price":  55,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Laccha Paratha",
+                                                                  "veg":  true,
+                                                                  "price":  40,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Stuffed Paratha",
+                                                                  "veg":  true,
+                                                                  "price":  110,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Paratha",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Aloo Paratha",
+                                                                  "veg":  true,
+                                                                  "price":  110,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  "/assets/images/breads-paratha-raita.webp"
+                       },
+                       {
+                           "name":  "Add-Ons",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Extra Gravy",
+                                                                  "veg":  true,
+                                                                  "price":  80,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Extra Curry",
+                                                                  "veg":  true,
+                                                                  "price":  60,
+                                                                  "special":  false
+                                                              }
+                                                          ]
+                                            }
+                                        ],
+                           "image":  null
+                       },
+                       {
+                           "name":  "Soup",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Veg Manchow Soup",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Clear Soup",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Hot \u0026 Sour Soup",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Spicy Korean Soup",
+                                                                  "veg":  true,
+                                                                  "price":  140,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Sweet Corn Soup",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Hollet Soup",
+                                                                  "veg":  true,
+                                                                  "price":  140,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Lemon Coriander Soup",
+                                                                  "veg":  true,
+                                                                  "price":  120,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/soup-veg.webp"
+                                            },
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Manchow Soup",
+                                                                  "veg":  false,
+                                                                  "price":  130,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Clear Soup",
+                                                                  "veg":  false,
+                                                                  "price":  130,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Hot \u0026 Sour Soup",
+                                                                  "veg":  false,
+                                                                  "price":  130,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Spicy Korean Soup",
+                                                                  "veg":  false,
+                                                                  "price":  150,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Sweet Corn Soup",
+                                                                  "veg":  false,
+                                                                  "price":  130,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Hollet Soup",
+                                                                  "veg":  false,
+                                                                  "price":  150,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Lemon Coriander Soup",
+                                                                  "veg":  false,
+                                                                  "price":  130,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/soup-nonveg.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/soup-veg.webp"
+                       },
+                       {
+                           "name":  "Starter",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Veg Manchurian",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Chilly Dry",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Chilly Gravy",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Manchurian",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Paneer Crispy Thread",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Crispy",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/starter-veg-manchurian.webp"
+                                            },
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Chilly",
+                                                                  "veg":  false,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Manchurian",
+                                                                  "veg":  false,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Lollipop Dry",
+                                                                  "veg":  false,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Lollipop Masala Dry",
+                                                                  "veg":  false,
+                                                                  "price":  260,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Lollipop Gravy",
+                                                                  "veg":  false,
+                                                                  "price":  260,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Crispy",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Crispy Thread",
+                                                                  "veg":  false,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Mongolian",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken 65",
+                                                                  "veg":  false,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/starter-nonveg-lollipop.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/starter-veg-manchurian.webp"
+                       },
+                       {
+                           "name":  "Chinese Rice",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Veg Fried Rice",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Schezwan Fried Rice",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Burnt Garlic Rice",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Pot Rice",
+                                                                  "veg":  true,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Triple Rice",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Hong Kong Rice",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Singapore Rice",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Bun Rice",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/chinese-rice-veg.webp"
+                                            },
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Fried Rice",
+                                                                  "veg":  false,
+                                                                  "price":  210,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Schezwan Fried Rice",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Burnt Garlic Rice",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Pot Rice",
+                                                                  "veg":  false,
+                                                                  "price":  260,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Triple Rice",
+                                                                  "veg":  false,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Hong Kong Rice",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Singapore Rice",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Bun Rice",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/chinese-rice-nonveg.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/chinese-rice-veg.webp"
+                       },
+                       {
+                           "name":  "Chinese Noodles",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Veg Hakka Noodles",
+                                                                  "veg":  true,
+                                                                  "price":  180,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Schezwan Noodles",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Singapore Noodles",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Hong Kong Noodles",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Triple Noodles",
+                                                                  "veg":  true,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/noodles-veg.webp"
+                                            },
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Hakka Noodles",
+                                                                  "veg":  false,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Schezwan Noodles",
+                                                                  "veg":  false,
+                                                                  "price":  210,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Singapore Noodles",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Hong Kong Noodles",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Triple Noodles",
+                                                                  "veg":  false,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/noodles-nonveg.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/noodles-veg.webp"
+                       },
+                       {
+                           "name":  "Gravy",
+                           "sections":  [
+                                            {
+                                                "label":  "Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Paneer Chilly Gravy",
+                                                                  "veg":  true,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Veg Manchurian Gravy",
+                                                                  "veg":  true,
+                                                                  "price":  200,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/gravy-veg.webp"
+                                            },
+                                            {
+                                                "label":  "Non-Veg",
+                                                "items":  [
+                                                              {
+                                                                  "name":  "Chicken Chilly Gravy",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken 65 Gravy",
+                                                                  "veg":  false,
+                                                                  "price":  220,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Black Bean Sauce",
+                                                                  "veg":  false,
+                                                                  "price":  240,
+                                                                  "special":  false
+                                                              },
+                                                              {
+                                                                  "name":  "Chicken Schezwan Sauce",
+                                                                  "veg":  false,
+                                                                  "price":  230,
+                                                                  "special":  false
+                                                              }
+                                                          ],
+                                                "image":  "/assets/images/gravy-nonveg.webp"
+                                            }
+                                        ],
+                           "image":  "/assets/images/gravy-veg.webp"
+                       }
+                   ]
+}
